@@ -1,0 +1,15 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Resources": {
+        "ec2001":{
+            "Type" : "AWS::EC2::Instance",
+            "Properties" : {
+                "ImageId" : "ami-0022f774911c1d690",
+                "InstanceType" : "t2.micro",
+                "SecurityGroupIds" : [
+                    "sg-0197b8159a5d886f8"
+                ]
+            }
+        }
+    }
+}
